@@ -31,6 +31,8 @@ This project is designed as an example to help you understand how to integrate H
 
 All managers in this project use the Singleton pattern to ensure there is only one instance of each manager throughout the game.
 
+The code is well-documented, providing detailed information about the functionality and usage of each script. You can refer to the code for further insights and explanations.
+
 ## Screenshots
 
 ### Main Menu
