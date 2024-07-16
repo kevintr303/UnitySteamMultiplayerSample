@@ -56,7 +56,7 @@ The code is well-documented, providing detailed information about the functional
 The entry point of the game. This scene is intended for displaying boot menus or sponsor screens. It uses the `StartupManager` script to load the Bootstrap scene.
 
 ### Bootstrap Scene
-Handles the initialization of all game managers. This scene uses additive scene loading to remain in the background throughout the game, ensuring that the managers persist across scene changes. It uses the `BootstrapManager` script to validate the initialization of necessary managers and load the Main Menu scene.
+Handles the initialization of all game managers. This scene uses additive scene loading to remain in the background throughout the game, ensuring that the managers persist across scene changes. It uses the `BootstrapManager` script to validate the initialization of necessary managers and load the Main Menu scene. 
 
 ### Main Menu Scene
 Manages the main menu interface, multiplayer lobbies, and transitions to the game scene. It provides options for creating or joining lobbies and starting the game. The `MainMenuManager` script handles these functionalities.
@@ -100,6 +100,7 @@ Handles any multiplayer scene changes. This script ensures that scenes are loade
 1. Start with the Startup scene and follow the flow to Bootstrap, Main Menu, and then Game scene.
 2. Modify the scripts and scenes as needed for your game.
 3. Use the provided managers and loaders for handling scenes and multiplayer functionality.
+4. Make sure you add any Spawnable prefabs to the `SpawnablePrefabs.asset` in the Assets folder.
 
 ## Contributing
 
