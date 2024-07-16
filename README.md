@@ -1,6 +1,6 @@
-# UnitySteamMultiplayerBoilerplate
+# UnitySteamMultiplayerSample
 
-UnitySteamMultiplayerBoilerplate is an example project that demonstrates how to set up a multiplayer and singleplayer game using Heathen Steamworks and Fish-Networking. The boilerplate comes with essential scenes and scripts to help you get started quickly.
+UnitySteamMultiplayerSample is an example project that demonstrates how to set up a multiplayer and singleplayer game using Heathen Steamworks and Fish-Networking. The sample comes with essential scenes and scripts to help you get started quickly.
 
 ## Table of Contents
 - [Overview](#overview)
